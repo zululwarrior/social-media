@@ -1,0 +1,23 @@
+{
+  "name": "postmaker",
+  "version": "1.0.0",
+  "description": "post making app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asbin Rai",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
